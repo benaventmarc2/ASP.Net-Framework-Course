@@ -13,9 +13,21 @@ namespace SesionUsuarios
     {
         void Application_Start(object sender, EventArgs e)
         {
-            // Código que se ejecuta al iniciar la aplicación
-            RouteConfig.RegisterRoutes(RouteTable.Routes);
-            BundleConfig.RegisterBundles(BundleTable.Bundles);
+            // Creamos variables de estado para la aplicacion
+            // Puede ser leida por todas las sesiones
+            Application["Aplicaciones"] = 0;
+            Application["SesionesUsuario"] = 0;
+            // Incrementamos
+            Application["Aplicaciones"] = (int)Application["Aplicaciones"] + 1;
+        }
+
+        void Session_Start(object sender, EventArgs e)
+        {
+            Application["SesionesUsuario"] = (int)Application["SesionesUsuario"] + 1;
+        }
+        void Session_End(object sender, EventArgs e)
+        {
+            Application["SesionesUsuario"] = (int)Application["SesionesUsuario"] - 1;
         }
     }
 }
