@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eventos", "Eventos\Eventos.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StateLess", "VariablesDeSesion\StateLess.csproj", "{0D3B4F1F-94DE-4BBE-A1B6-B3CFA861B961}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VariablesDeSession", "VariablesDeSession\VariablesDeSession.csproj", "{D4FB17CB-CBDF-4E23-99B0-83481A52E569}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{0D3B4F1F-94DE-4BBE-A1B6-B3CFA861B961}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D3B4F1F-94DE-4BBE-A1B6-B3CFA861B961}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0D3B4F1F-94DE-4BBE-A1B6-B3CFA861B961}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4FB17CB-CBDF-4E23-99B0-83481A52E569}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4FB17CB-CBDF-4E23-99B0-83481A52E569}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4FB17CB-CBDF-4E23-99B0-83481A52E569}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4FB17CB-CBDF-4E23-99B0-83481A52E569}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
