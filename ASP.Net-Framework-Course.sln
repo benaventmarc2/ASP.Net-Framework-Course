@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SesionUsuarios", "SesionUsu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eventos", "Eventos\Eventos.csproj", "{FC9C4ED6-DD71-441A-B12C-E733E3D30904}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StateLess", "VariablesDeSesion\StateLess.csproj", "{0D3B4F1F-94DE-4BBE-A1B6-B3CFA861B961}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{FC9C4ED6-DD71-441A-B12C-E733E3D30904}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC9C4ED6-DD71-441A-B12C-E733E3D30904}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC9C4ED6-DD71-441A-B12C-E733E3D30904}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D3B4F1F-94DE-4BBE-A1B6-B3CFA861B961}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D3B4F1F-94DE-4BBE-A1B6-B3CFA861B961}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D3B4F1F-94DE-4BBE-A1B6-B3CFA861B961}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D3B4F1F-94DE-4BBE-A1B6-B3CFA861B961}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
